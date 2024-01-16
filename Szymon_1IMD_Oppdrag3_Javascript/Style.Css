@@ -1,0 +1,84 @@
+.eriks {
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    margin-right: 45%;
+ 
+}
+
+.eriks h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 5%;
+}
+
+body {
+    margin: 0;
+}
+/* endrer på div størrelsen til charten, gjennom den kan jeg endre på størrelsen til charten siden det funker ikke å gjøre det ellers. */
+.chartContainer {
+    display: flex;
+    width: 60vw;
+    height: 40vw;
+    justify-content: left;
+    align-items: last baseline;
+}
+/* denne koden endrer på ''stemmer for ...'' diven, hvor jeg har antallet stemmer skrevet sånn at det skulle være tydeligere */
+.vote {
+    display: flex;
+    flex-direction: column;
+    gap: 7.5%;
+    justify-content: left;
+    margin-left: 3%;
+    margin-top: 4%;
+
+}
+/* endrer på skriften til diven hvor alt er skrevet opp */
+.vote p {
+    font-size: 1.6rem;
+    gap: 15.5;
+}
+
+/* denne koden er med på å redigere diven til alle knappene for java script */
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+    margin-left: 2.5%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+/* denne koden redigerer selve knappene */
+button {
+    font-size: 1.8rem;
+    height: 8vw;
+    width: 8vw;
+    margin-top: 5%;
+}
+
+.alt {
+    display: flex;
+    flex-direction: row;
+}
+
+#mdg {
+
+    background-color: chartreuse;
+}
+
+#h {
+    background-color: lightblue;
+}
+
+#ap {
+    background-color: red;
+}
+
+#sp {
+    background-color: greenyellow;
+}
+
+#frp {
+    background-color: crimson;
+}

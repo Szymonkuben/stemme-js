@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.Css">
+</head>
+
+<body>
+    <div class="eriks">
+        <h1>Erikstad kommune stemme teller</h1>
+    </div>
+
+    <div class="alt">
+
+  
+     <div class="button">
+            <button onclick="vote('option1')" id="h">H</button>
+            <button onclick="vote('option2')" id="ap">AP</button>
+            <button onclick="vote('option3')" id="sp">SP</button>
+            <button onclick="vote('option4')" id="frp">FRP</button>
+            <button onclick="vote('option5')" id="mdg">MDG</button>
+
+        </div>
+        <div class="vote">
+            <p>Stemmer for Høyre: <span id="voteCountOption1">0</span></p>
+
+            <p>Stemmer for Arbeiderpartiet: <span id="voteCountOption2">0</span></p>
+
+
+            <p>Stemmer for Senterpartiet: <span id="voteCountOption3">0</span></p>
+
+
+            <p>Stemmer for Fremsktittspartiet: <span id="voteCountOption4">0</span></p>
+
+
+            <p>Stemmer for mdg: <span id="voteCountOption5">0</span></p>
+     
+    </div>
+
+ <div class="chartContainer">
+            <canvas id="myChart"></canvas>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+ 
+
+
+
+
+    <script src="Script.JS"></script>
+</body>
+
+</html>
